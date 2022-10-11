@@ -11,7 +11,7 @@ import com.institute.mech.things.MxPlayer;
 import com.institute.mech.things.PhoneDialer;
 import com.institute.mech.things.Whatsapp;
 
-public class Runner {
+public class ThingsRunner {
 
 	public static void main(String[] args) {
 
