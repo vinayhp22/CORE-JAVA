@@ -26,6 +26,28 @@ public class Runner {
 		new GitHub();
 		new Contacts();
 		
+		new PhoneDialer();
+		new MxPlayer();
+		new ChromeBrowser();
+		new Whatsapp();
+		new Facebook();
+		new Instagram();
+		new LinkedIn();
+		new Messages();
+		new GitHub();
+		new Contacts();
+		
+		new PhoneDialer();
+		new MxPlayer();
+		new ChromeBrowser();
+		new Whatsapp();
+		new Facebook();
+		new Instagram();
+		new LinkedIn();
+		new Messages();
+		new GitHub();
+		new Contacts();
+		
 	}
 
 }
