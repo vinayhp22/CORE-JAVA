@@ -106,7 +106,7 @@ public class ChainRunner {
 		System.out.println("Used For : " + chain8.usedFor);
 		System.out.println("Fresh : " + chain8.fresh);
 
-		System.out.println("=====================================");
+		System.out.println("==================The END===================");
 	}
 
 }

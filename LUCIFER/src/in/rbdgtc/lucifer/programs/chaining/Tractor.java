@@ -2,8 +2,8 @@ package in.rbdgtc.lucifer.programs.chaining;
 
 public class Tractor {
 
-	// name, brand, price, color, hp, model
-	// 6 const with chaining
+	// name, brand, price, color, hp model
+	// 6 const with chaining 
 
 	public String name;
 	public String brand;

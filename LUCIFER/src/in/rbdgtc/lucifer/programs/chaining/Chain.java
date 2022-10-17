@@ -1,7 +1,7 @@
 package in.rbdgtc.lucifer.programs.chaining;
 
 public class Chain {
-	// type price length material weight stolen usedFor fresh
+	// type price length material weight stolen usedFor fresh;
 	// 8const with chaining
 
 	public String type; // "Ring"
@@ -18,43 +18,43 @@ public class Chain {
 	}
 
 	public Chain(String type) {
-		this.type=type;
+		this.type = type;
 		System.out.println("Const with String...");
 	}
 
 	public Chain(String type, int price) {
 		this(type);
-		this.price=price;
+		this.price = price;
 		System.out.println("Const with String & int...");
 	}
 
 	public Chain(String type, int price, double length) {
 		this(type, price);
-		this.length=length;
+		this.length = length;
 		System.out.println("Const with String, int & double...");
 	}
 
 	public Chain(String type, int price, double length, String material) {
 		this(type, price, length);
-		this.material=material;
+		this.material = material;
 		System.out.println("Const with String, int, double & String....");
 	}
 
 	public Chain(String type, int price, double length, String material, double weight) {
 		this(type, price, length, material);
-		this.weight=weight;
+		this.weight = weight;
 		System.out.println("Const with String, int, double, String & double....");
 	}
 
 	public Chain(String type, int price, double length, String material, boolean stolen) {
 		this(type, price, length, material);
-		this.stolen=stolen;
+		this.stolen = stolen;
 		System.out.println("Const with String, int, double & boolean....");
 	}
 
 	public Chain(String type, int price, double length, String material, String usedFor) {
 		this(type, price, length, material);
-		this.usedFor=usedFor;
+		this.usedFor = usedFor;
 		System.out.println("Const with String, int, double & String....");
 	}
 }

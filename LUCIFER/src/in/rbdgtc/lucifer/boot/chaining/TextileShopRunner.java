@@ -94,7 +94,7 @@ public class TextileShopRunner {
 
 		System.out.println("=============================");
 
-		System.out.println("The End....");
+		System.out.println("=========.....The End....===========");
 
 	}
 

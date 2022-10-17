@@ -1,10 +1,10 @@
 package in.rbdgtc.lucifer.programs.chaining;
 
 public class TextileShop {
-	// ownerName, ownerWifeName, ownerDaughterName, ownerDaughterNumber,
-	// ownerNoOfWifes, shopNo, contactNo
-	// 8const with chaining
-
+	/*
+	 * ownerName, ownerWifeName, ownerDaughterName, ownerDaughterNumber,
+	 * ownerNoOfWifes, shopNo, contactNo 8const with chaining
+	 */
 	public String ownerName;
 	public String ownerWifeName;
 	public String ownerDaughterName;
@@ -12,7 +12,6 @@ public class TextileShop {
 	public int ownerNoOfWifes;
 	public String shopNo;
 	public long contactNo;
-
 
 	public TextileShop() {
 		System.out.println("Default Const..");
