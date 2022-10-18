@@ -50,6 +50,7 @@ public class Metro1 {
 		for (int i = 0; i < metroStationNames.length; i++) {
 			String string = metroStationNames[i];
 			System.out.println(string);
+
 		}
 		System.out.println(System.lineSeparator() + "====Station Manger Names====");
 		for (int i = 0; i < stationMangerName.length; i++) {
