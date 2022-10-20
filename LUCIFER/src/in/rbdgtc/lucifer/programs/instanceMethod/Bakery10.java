@@ -23,6 +23,7 @@ public class Bakery10 {
 		this.location = location;
 		this.noOfDoors = noOfDoors;
 		this.rating = rating;
+		
 		this.availableItems = availableItems;
 		this.typeOfPuffs = typeOfPuffs;
 		this.typeOfCakes = typeOfCakes;

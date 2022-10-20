@@ -1,4 +1,6 @@
-package in.rbdgtc.lucifer.programs.instanceMethod;
+package in.rbdgtc.lucifer.boot.instanceMethod;
+
+import in.rbdgtc.lucifer.programs.instanceMethod.Bakery10;
 
 public class Bakery10Runner {
 
