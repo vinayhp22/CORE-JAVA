@@ -23,7 +23,7 @@ public class Bus7 {
 		this.deponame = deponame;
 		this.depoManager = depoManager;
 		this.pass = pass;
-		this.busRoot=busRoot;
+		this.busRoot = busRoot;
 		this.noOfMechanic = noOfMechanic;
 		this.busColor = busColor;
 		this.busNo = busNo;
@@ -41,35 +41,23 @@ public class Bus7 {
 		System.out.println("No. of Mechanic : " + this.noOfMechanic);
 
 		System.out.println(System.lineSeparator() + "busNo Printing naditha ede ");
-
 		for (int i = 0; i < busNo.length; i++) {
-
 			System.out.println(busNo[i]);
-
 		}
 
 		System.out.println(System.lineSeparator() + "Printing naditha ede ");
-
 		for (int i = 0; i < busColor.length; i++) {
-
 			System.out.println(busColor[i]);
-
 		}
 
 		System.out.println(System.lineSeparator() + "busNameType Printing naditha ede ");
-
 		for (int i = 0; i < busNameType.length; i++) {
-
 			System.out.println(busNameType[i]);
-
 		}
 
 		System.out.println(System.lineSeparator() + "Printing naditha ede ");
-
 		for (int i = 0; i < depotLocation.length; i++) {
-
 			System.out.println(depotLocation[i]);
-
 		}
 
 		System.out.println(System.lineSeparator() + "busRoot Printing naditha ede ");

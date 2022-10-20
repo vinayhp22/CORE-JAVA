@@ -8,13 +8,19 @@ public class Hotel12 {
 	public int noOfEmployees;
 	public String establishedYear;
 
+	public String[] type;
 	public String[] menu;
+	public int[] biriyaniPrices;
 	public String[] branches;
 	public String[] employeeNames;
 	public String[] mainIngredients;
 
 	public Hotel12(String hotelName, String hygenic, int noOfTable, int noOfEmployees, String establishedYear,
-			String[] menu, String[] branches, String[] employeeNames, String[] mainInredients, String[] mainIngredients) {
+			String[] type, String[] menu, int[] biriyaniPrices, String[] branches, String[] employeeNames,
+			String[] mainIngredients) {
+		
+		this.type=type;
+		this.biriyaniPrices=biriyaniPrices;
 		this.branches = branches;
 		this.hotelName = hotelName;
 		this.employeeNames = employeeNames;
@@ -24,6 +30,7 @@ public class Hotel12 {
 		this.establishedYear = establishedYear;
 		this.menu = menu;
 		this.mainIngredients = mainIngredients;
+
 	}
 
 	public void display() {
@@ -49,6 +56,7 @@ public class Hotel12 {
 		for (int i = 0; i < mainIngredients.length; i++) {
 			String ref4 = mainIngredients[i];
 			System.out.println(ref4);
+			
 		}
 	}
 

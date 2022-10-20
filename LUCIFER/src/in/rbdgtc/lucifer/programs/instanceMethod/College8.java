@@ -27,34 +27,25 @@ public class College8 {
 	}
 
 	public void display() {
-		System.out.println("Printing naditha Ede");
-
+		
 		System.out.println("Univercity Name : " + univercityName);
 		System.out.println("College Location : " + this.collegeLocation);
 		System.out.println("No. Of Colleges : " + this.noOfColleges);
 		System.out.println("No. Of Branches : " + this.noOfBranches);
 		System.out.println("College Principle : " + this.collegePrinciple);
 
-		System.out.println(System.lineSeparator());
-		System.out.println("=========Branch=====");
-
+		System.out.println(System.lineSeparator() + "=========Branch=====");
 		for (int i = 0; i < branches.length; i++) {
-
 			System.out.println(this.branches[i]);
-
 		}
-		System.out.println(System.lineSeparator());
-		System.out.println("collegeNames Printing naditha Ede");
+
+		System.out.println(System.lineSeparator() + "=========College Names=====");
 		for (int i = 0; i < collegeNames.length; i++) {
-
 			System.out.println(this.collegeNames[i]);
-
 		}
-		System.out.println(System.lineSeparator());
-		System.out.println("Printing naditha Ede");
 
+		System.out.println(System.lineSeparator() + "=========Places=====");
 		for (int i = 0; i < places.length; i++) {
-
 			System.out.println(this.places[i]);
 
 		}
