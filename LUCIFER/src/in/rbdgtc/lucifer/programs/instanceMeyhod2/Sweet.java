@@ -8,7 +8,7 @@ public class Sweet {
 	public SweetBrand brand = SweetBrand.NA; //literal
 	public String shopName; //const
 	public double pricePerKG; //method
-	public double quantityInKG; //ref
+	public double quantityInKG; //reference
 
 	public Sweet(String shopName) {
 		this.shopName = shopName;
