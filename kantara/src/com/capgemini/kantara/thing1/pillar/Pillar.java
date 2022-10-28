@@ -1,4 +1,4 @@
-package com.capgemini.kantara.thing1;
+package com.capgemini.kantara.thing1.pillar;
 
 import com.capgemini.kantara.constants.PillarShape;
 

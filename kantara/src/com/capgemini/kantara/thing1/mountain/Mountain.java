@@ -1,4 +1,4 @@
-package com.capgemini.kantara.thing1;
+package com.capgemini.kantara.thing1.mountain;
 
 public class Mountain {
 

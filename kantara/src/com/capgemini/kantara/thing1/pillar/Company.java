@@ -1,4 +1,4 @@
-package com.capgemini.kantara.thing1;
+package com.capgemini.kantara.thing1.pillar;
 
 public class Company {
 
