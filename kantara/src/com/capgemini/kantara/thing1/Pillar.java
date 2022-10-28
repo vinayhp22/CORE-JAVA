@@ -22,8 +22,11 @@ public class Pillar {
 		System.out.println("place : " + place);
 		System.out.println("SHAPE : " + shape);
 		System.out.println("height : " + height);
-
-		company.showOff();
+		if (company != null) {
+			company.showOff();
+		} else {
+			System.out.println("Company is null...");
+		}
 
 	}
 

@@ -7,14 +7,11 @@ public class God {
 	public String mainPower;
 	public Weapon weapon = new Weapon("Bhuu Chakra", "use enu antha Gotilla", 55.3);
 
-	
 	public God(String name, String gender, String mainPower) {
 		this.name = name;
 		this.gender = gender;
 		this.mainPower = mainPower;
 	}
-
-
 
 	public void showOff() {
 		System.out.println("God Running...");
@@ -22,6 +19,11 @@ public class God {
 		System.out.println("gender : " + gender);
 		System.out.println("mainPower : " + mainPower);
 		System.out.println(System.lineSeparator());
-		weapon.showOff();
+
+		if (this.weapon != null) {
+			weapon.showOff();
+		} else {
+			System.out.println("weapon is null");
+		}
 	}
 }

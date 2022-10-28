@@ -24,8 +24,12 @@ public class Fuel {
 	}
 
 	public void showOff() {
-		
-		brand.showOff();
+		if (brand != null) {
+			brand.showOff();
+		} else {
+			System.out.println("Brand is null...");
+		}
+
 		System.out.println("special : " + special);
 		System.out.println("type : " + type);
 		System.out.println("price : " + price);

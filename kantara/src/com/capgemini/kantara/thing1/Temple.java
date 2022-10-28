@@ -22,7 +22,12 @@ public class Temple {
 		System.out.println("noOfVisitor : " + noOfVisitor);
 		System.out.println("collectionPerDay : " + collectionPerDay);
 		System.out.println(System.lineSeparator());
-		god.showOff();
+		if (god != null) {
+			god.showOff();
+		} else {
+			System.out.println("God is null");
+		}
+
 	}
 
 }
