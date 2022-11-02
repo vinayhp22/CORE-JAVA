@@ -12,7 +12,6 @@ public class Email {
 		this.id = id;
 		this.password = password;
 		this.mobileNo = mobileNo;
-		this.company = company;
 	}
 
 	public void showOff() {
