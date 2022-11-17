@@ -1,3 +1,5 @@
+//Write a program to count the number of Vowels and Consonants 
+//in given String
 package com.bajaj.pulsar;
 
 public class CountVowelsAndConsoltants {

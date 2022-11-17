@@ -11,7 +11,8 @@ public class LengthOfAString {
 	public static int getLength(String str) {
 		int length = 0;
 		char[] strCharArray = str.toCharArray();
-		for (int i=0; i < strCharArray.length; i++) { //for(char c : strCharArray
+		for (int i=0; i < strCharArray.length; i++) { 
+			//for(char c : strCharArray
 			length++;
 		}
 		return length;
