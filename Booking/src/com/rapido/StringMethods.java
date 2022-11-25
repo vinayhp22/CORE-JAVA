@@ -22,9 +22,10 @@ public class StringMethods {
 		 * Returns the length of this string. The length is equal to the number of
 		 * Unicode code units in the string.
 		 */
-
-		// System.out.println(s.name.charAt(s.name.length()));
-		// Error - String index out of range: 4
+		
+		System.out.println(s.name.charAt(2));
+		// Returns the char value at the specified index. 
+		//An index ranges from 0 to length() - 1.
 
 		System.out.println(s.name.compareTo(s.name1));
 		// Compares two strings lexicographically.
