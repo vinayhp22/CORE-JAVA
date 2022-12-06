@@ -21,6 +21,7 @@ public class PersonRunner {
 		lakshmi.training();
 		lakshmi.uploadedTask();
 		lakshmi.vat();
+
 	}
 
 }
