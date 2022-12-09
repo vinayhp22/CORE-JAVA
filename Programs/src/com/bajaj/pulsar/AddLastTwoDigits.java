@@ -12,7 +12,7 @@ public class AddLastTwoDigits {
 		int rev = 0, mod = 0, mod1 = 0;
 		int count = 0, sum = 0;
 
-		while (num > 0 & count <= 1) {
+		while (num > 0 & count < 2) {
 			mod = num % 10; // 6 //5
 			rev = rev * 10 + mod; // 6 //65
 			num = num / 10; // 12345 //1234
