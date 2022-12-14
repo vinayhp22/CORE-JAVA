@@ -10,6 +10,14 @@ public abstract class AbstractAuditDTO implements Serializable {
 	private String updatedBy;
 	private LocalDateTime updatedDate;
 
+	public AbstractAuditDTO(String createdBy, LocalDateTime createdDate, String updatedBy, LocalDateTime updatedDate) {
+		super();
+		this.createdBy = createdBy;
+		this.createdDate = createdDate;
+		this.updatedBy = updatedBy;
+		this.updatedDate = updatedDate;
+	}
+
 	public AbstractAuditDTO() {
 		System.out.println("AbstractAuditDTO - default const");
 	}

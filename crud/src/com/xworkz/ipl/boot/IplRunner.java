@@ -22,10 +22,12 @@ public class IplRunner {
 		dto.setDefeats(113);
 		dto.setCreatedBy("Vinay1");
 		dto.setCreatedDate(LocalDateTime.of(2022, 12, 12, 14, 27));
-		dto.setUpdatedBy("Vinay2");
+		dto.setUpdatedBy("Om sir");
 		dto.setUpdatedDate(LocalDateTime.now());
 		repository.create(dto);
-		System.out.println("\n");
+		System.out.println(repository.total()+"\n");
+		
+		
 		
 		IplDTO dto2=new IplDTO();
 		dto2.setTeamName("MI");
@@ -37,10 +39,10 @@ public class IplRunner {
 		dto2.setDefeats(113);
 		dto2.setCreatedBy("Vinay1");
 		dto2.setCreatedDate(LocalDateTime.of(2022, 12, 12, 14, 27));
-		dto2.setUpdatedBy("Vinay2");
+		dto2.setUpdatedBy("Om sir");
 		dto2.setUpdatedDate(LocalDateTime.now());
 		repository.create(dto2);
-		System.out.println("\n");
+		System.out.println(repository.total()+"\n");
 
 		IplDTO dto3=new IplDTO();
 		dto3.setTeamName("SRH");
@@ -52,10 +54,10 @@ public class IplRunner {
 		dto3.setDefeats(54);
 		dto3.setCreatedBy("Vinay1");
 		dto3.setCreatedDate(LocalDateTime.of(2022, 12, 12, 14, 27));
-		dto3.setUpdatedBy("Vinay2");
+		dto3.setUpdatedBy("Om sir");
 		dto3.setUpdatedDate(LocalDateTime.now());
 		repository.create(dto3);
-		System.out.println("\n");
+		System.out.println(repository.total()+"\n");
 
 		IplDTO dto4=new IplDTO();
 		dto4.setTeamName("Delhi Captals");
@@ -67,10 +69,10 @@ public class IplRunner {
 		dto4.setDefeats(113);
 		dto4.setCreatedBy("Vinay1");
 		dto4.setCreatedDate(LocalDateTime.of(2022, 12, 12, 14, 27));
-		dto4.setUpdatedBy("Vinay2");
+		dto4.setUpdatedBy("Om sir");
 		dto4.setUpdatedDate(LocalDateTime.now());
 		repository.create(dto4);
-		System.out.println("\n");
+		System.out.println(repository.total()+"\n");
 
 		IplDTO dto5=new IplDTO();
 		dto5.setTeamName("KKR");
@@ -82,10 +84,10 @@ public class IplRunner {
 		dto5.setDefeats(113);
 		dto5.setCreatedBy("Vinay1");
 		dto5.setCreatedDate(LocalDateTime.of(2022, 12, 12, 14, 27));
-		dto5.setUpdatedBy("Vinay2");
+		dto5.setUpdatedBy("Om sir");
 		dto5.setUpdatedDate(LocalDateTime.now());
 		repository.create(dto5);
-		System.out.println("\n");
+		System.out.println(repository.total()+"\n");
 
 		IplDTO dto6=new IplDTO();
 		dto6.setTeamName("RR");
@@ -97,14 +99,14 @@ public class IplRunner {
 		dto6.setDefeats(113);
 		dto6.setCreatedBy("Vinay1");
 		dto6.setCreatedDate(LocalDateTime.of(2022, 12, 12, 14, 27));
-		dto6.setUpdatedBy("Vinay2");
+		dto6.setUpdatedBy("Om sir");
 		dto6.setUpdatedDate(LocalDateTime.now());
 		repository.create(dto6);
-		System.out.println("\n");
+		System.out.println(repository.total()+"\n");
 
 		IplDTO dto7=new IplDTO();
 		dto7.setTeamName("Punjab Kings");
-		dto7.setCaptainName("Virat");
+		dto7.setCaptainName("Mayank Agarwal");
 		dto7.setOwnerName("Preety Zinta");
 		dto7.setOwnerAlive(true);
 		dto7.setPurse(18);
@@ -112,10 +114,10 @@ public class IplRunner {
 		dto7.setDefeats(113);
 		dto7.setCreatedBy("Vinay1");
 		dto7.setCreatedDate(LocalDateTime.of(2022, 12, 12, 14, 27));
-		dto7.setUpdatedBy("Vinay2");
+		dto7.setUpdatedBy("Om sir");
 		dto7.setUpdatedDate(LocalDateTime.now());
 		repository.create(dto7);
-		System.out.println("\n");
+		System.out.println(repository.total()+"\n");
 
 		IplDTO dto8=new IplDTO();
 		dto8.setTeamName("CSK");
@@ -127,10 +129,10 @@ public class IplRunner {
 		dto8.setDefeats(113);
 		dto8.setCreatedBy("Vinay1");
 		dto8.setCreatedDate(LocalDateTime.of(2022, 12, 12, 14, 27));
-		dto8.setUpdatedBy("Vinay2");
+		dto8.setUpdatedBy("Om sir");
 		dto8.setUpdatedDate(LocalDateTime.now());
 		repository.create(dto8);
-		System.out.println("\n");
+		System.out.println(repository.total()+"\n");
 
 		IplDTO dto9=new IplDTO();
 		dto9.setTeamName("Lucknow Super Giants");
@@ -142,10 +144,10 @@ public class IplRunner {
 		dto9.setDefeats(113);
 		dto9.setCreatedBy("Vinay1");
 		dto9.setCreatedDate(LocalDateTime.of(2022, 12, 12, 14, 27));
-		dto9.setUpdatedBy("Vinay2");
+		dto9.setUpdatedBy("Om sir");
 		dto9.setUpdatedDate(LocalDateTime.now());
 		repository.create(dto9);
-		System.out.println("\n");
+		System.out.println(repository.total()+"\n");
 
 		IplDTO dto10=new IplDTO();
 		dto10.setTeamName("Gujrat Titans");
@@ -157,10 +159,10 @@ public class IplRunner {
 		dto10.setDefeats(113);
 		dto10.setCreatedBy("Vinay1");
 		dto10.setCreatedDate(LocalDateTime.of(2022, 12, 12, 14, 27));
-		dto10.setUpdatedBy("Vinay2");
+		dto10.setUpdatedBy("Om sir");
 		dto10.setUpdatedDate(LocalDateTime.now());
 		repository.create(dto10);
-		System.out.println("\n");
+		System.out.println(repository.total()+"\n");
 
 		IplDTO dto11=new IplDTO();
 		dto11.setTeamName("Kochi Tuskers Kerala");
@@ -172,10 +174,10 @@ public class IplRunner {
 		dto11.setDefeats(113);
 		dto11.setCreatedBy("Vinay1");
 		dto11.setCreatedDate(LocalDateTime.of(2022, 12, 12, 14, 27));
-		dto11.setUpdatedBy("Vinay2");
+		dto11.setUpdatedBy("Om sir");
 		dto11.setUpdatedDate(LocalDateTime.now());
 		repository.create(dto11);
-		System.out.println("\n");
+		System.out.println(repository.total()+"\n");
 
 	}
 }
