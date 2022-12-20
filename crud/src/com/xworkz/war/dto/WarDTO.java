@@ -2,10 +2,9 @@ package com.xworkz.war.dto;
 
 import java.sql.Date;
 import java.time.LocalDate;
-
 import com.xworkz.ipl.dto.AbstractAuditDTO;
 
-public  class WarDTO extends AbstractAuditDTO{
+public class WarDTO extends AbstractAuditDTO {
 
 	private String name;
 	private LocalDate startDate;
@@ -14,13 +13,13 @@ public  class WarDTO extends AbstractAuditDTO{
 	private String startedWith;
 	private String wonBy;
 	private int noOfDeaths;
-	
+
 	public WarDTO() {
 		System.out.println("Running AbstractAuditDTO ");
 	}
-	
+
 	public WarDTO(String name, LocalDate startDate, LocalDate endDate, String startedBy, String startedWith,
-			String wonBy, int noOfDeaths, String createdBy, LocalDate) {
+			String wonBy, int noOfDeaths ) {
 		super();
 		this.name = name;
 		this.startDate = startDate;
@@ -30,7 +29,7 @@ public  class WarDTO extends AbstractAuditDTO{
 		this.wonBy = wonBy;
 		this.noOfDeaths = noOfDeaths;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "WarDTO [name=" + name + ", startDate=" + startDate + ", endDate=" + endDate + ", startedBy=" + startedBy
@@ -93,12 +92,5 @@ public  class WarDTO extends AbstractAuditDTO{
 	public void setNoOfDeaths(int noOfDeaths) {
 		this.noOfDeaths = noOfDeaths;
 	}
-	
-	
-
-	
-
-
-
 
 }
