@@ -165,12 +165,12 @@ public class Dams {
 				System.out.println("Dams length having greater than 15 : " + dams);
 			}
 		}
-
+		System.out.println("\nDams in UPPER & lower cases :- \n");
 		Iterator<String> element4 = damsInIndia.iterator();
 		while (element4.hasNext()) {
 			String dams = element4.next();
-			System.out.println("\nDams in the upper case"+dams.toUpperCase());
-			System.out.println("\nDams in the lower case"+dams.toLowerCase());
+			System.out.println("Dams in the upper case : " + dams.toUpperCase());
+			System.out.println("Dams in the lower case : " + dams.toLowerCase());
 
 		}
 		Iterator<String> element5 = damsInIndia.iterator();
@@ -181,9 +181,9 @@ public class Dams {
 				rev = rev + dams.charAt(i);
 			}
 			if (rev.equalsIgnoreCase(dams)) {
-				System.out.println("Element is palindrome");
+				System.err.println("Element is palindrome : " + dams);
 			} else {
-				System.out.println("Element is not palindrome");
+				System.out.println("Element is not palindrome : " + dams);
 			}
 		}
 
@@ -193,7 +193,7 @@ public class Dams {
 			String dams = element6.next();
 			if (dams.contains("p")) {
 				element6.remove();
-				System.err.println("Removed dams : "+dams);
+				System.err.println("Removed dams : " + dams);
 			}
 		}
 		System.out.println("Indian dams after  remove " + damsInIndia.size());

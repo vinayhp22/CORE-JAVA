@@ -7,7 +7,7 @@ public class BikeRunner {
 
 	public static void main(String[] args) {
 
-		Collection collection = new HashSet();
+		Collection<String> collection = new HashSet();
 		collection.add("Pulsar NS200");
 		collection.add("Pulsar 220F");
 		collection.add("Pulsar N250");
