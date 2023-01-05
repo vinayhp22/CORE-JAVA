@@ -1,6 +1,8 @@
 package com.streams.dto;
 
-public class CompanyCEODTO {
+import java.io.Serializable;
+
+public class CompanyCEODTO implements Serializable{
 
 	private String name;
 	private String company;

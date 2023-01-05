@@ -26,18 +26,20 @@ public class CompanyCEODTORunner {
 		ceodtos.add(new CompanyCEODTO("Sundar Pichai", "Google", 50, "Indian-American", "BTech, MS, MBA", true, dto2));
 		ceodtos.add(new CompanyCEODTO("Elon Mask", "Twitter", 51, "SouthAfrican, Canadian, American", "BA, BS", true,
 				dto3));
+		ceodtos.add(new CompanyCEODTO("Vinay", null, 25, "India", "BE", false, null));
 
 		System.out.println("CompanyCEODTO : DaughterDTOs........\n");
 		ceodtos.stream().map(ceo -> ceo.getDaughter()).collect(Collectors.toList())
 				.forEach(e -> System.out.println("\n" + e));
 
 		System.out.println("\n======= CompanyCEODTO : DaughterDTOs - names........\n");
-		for (CompanyCEODTO companyCEODTO : ceodtos) {
-			if (ceodtos.contains(ceodtos)) {
-				ceodtos.stream().map(ceo -> (ceo.getDaughter().getName()!=null)).collect(Collectors.toList())
+		ceodtos.stream().filter(ceo1->(ceo1.getDaughter()!=null)).map(ceo->ceo.getDaughter().getName()).collect(Collectors.toList())
 				.forEach(e -> System.out.println("\n" + e));
-			}
-		}
+
+		System.out.println("\n======= CompanyCEODTO : names below age 30years........\n");
+		ceodtos.stream().filter(ceo -> !(ceo.getAge() >= 30)).map(ceo -> ceo.getName()).collect(Collectors.toList())
+				.forEach(e -> System.out.println(e));
+		
 	}
 
 }
