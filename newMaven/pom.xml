@@ -7,12 +7,18 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<spring.version>5.3.24</spring.version>
+		<hibernate.version>5.4.27.SP1</hibernate.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-java8</artifactId>
+			<version>${hibernate.version}</version>
 		</dependency>
 	</dependencies>
 	<build>
